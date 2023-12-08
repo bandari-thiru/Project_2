@@ -19,8 +19,8 @@ mydb=mysql.connector.connect(
     host=host,
     user=user,
     password=password,
-    database=database)
-
+    database=database
+    )
 cursor = mydb.cursor()
 
 #Aggregated_transsaction
@@ -403,9 +403,9 @@ with tab2:
             animate_all_count()
             payment_amount()
 
-        state=st.selectbox("selecet the state",('Andaman & Nicobar', 'Andhra Pradesh', 'Arunachal Pradesh',
+        state=st.selectbox("selecet the state",('Andaman And Nicobar', 'Andhra Pradesh', 'Arunachal Pradesh',
                                                 'Assam', 'Bihar', 'Chandigarh', 'Chhattisgarh',
-                                                'Dadra and Nagar Haveli and Daman Diu', 'Delhi', 'Goa',
+                                                'Dadra & Nagar Haveli & Daman & Diu', 'Delhi', 'Goa',
                                                 'Gujarat', 'Haryana', 'Himachal Pradesh', 'Jammu & Kashmir',
                                                 'Jharkhand', 'Karnataka', 'Kerala', 'Ladakh', 'Lakshadweep',
                                                 'Madhya Pradesh', 'Maharashtra', 'Manipur', 'Meghalaya', 'Mizoram',
@@ -424,9 +424,9 @@ with tab2:
         with col2:
             transaction_count_year(sel_year)
             payment_amount_year(sel_year)
-            state= st.selectbox("selecet the state",('Andaman and Nicobar', 'Andhra Pradesh', 'Arunachal Pradesh',
+            state= st.selectbox("selecet the state",('Andaman And Nicobar', 'Andhra Pradesh', 'Arunachal Pradesh',
                                                 'Assam', 'Bihar', 'Chandigarh', 'Chhattisgarh',
-                                                'Dadra and Nagar Haveli and Daman Diu', 'Delhi', 'Goa',
+                                                'Dadra & Nagar Haveli & Daman & Diu', 'Delhi', 'Goa',
                                                 'Gujarat', 'Haryana', 'Himachal Pradesh', 'Jammu & Kashmir',
                                                 'Jharkhand', 'Karnataka', 'Kerala', 'Ladakh', 'Lakshadweep',
                                                 'Madhya Pradesh', 'Maharashtra', 'Manipur', 'Meghalaya', 'Mizoram',
