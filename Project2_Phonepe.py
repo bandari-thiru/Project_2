@@ -426,7 +426,7 @@ with tab2:
             payment_amount_year(sel_year)
             state= st.selectbox("selecet the state",('Andaman and Nicobar', 'Andhra Pradesh', 'Arunachal Pradesh',
                                                 'Assam', 'Bihar', 'Chandigarh', 'Chhattisgarh',
-                                                'Dara and Nagar Haveli and Daman Diu', 'Delhi', 'Goa',
+                                                'Dadra and Nagar Haveli and Daman Diu', 'Delhi', 'Goa',
                                                 'Gujarat', 'Haryana', 'Himachal Pradesh', 'Jammu & Kashmir',
                                                 'Jharkhand', 'Karnataka', 'Kerala', 'Ladakh', 'Lakshadweep',
                                                 'Madhya Pradesh', 'Maharashtra', 'Manipur', 'Meghalaya', 'Mizoram',
